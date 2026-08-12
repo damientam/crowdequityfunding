@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crowdfunding Watch</title>
+  <meta name="description" content="Comparative daily tracker of the main US equity-crowdfunding platforms — Wefunder, StartEngine, DealMaker, Republic — from SEC EDGAR filings.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='8' width='3' height='7' rx='1' fill='%232a78d6'/%3E%3Crect x='6' y='4' width='3' height='11' rx='1' fill='%23eb6834'/%3E%3Crect x='11' y='1' width='3' height='14' rx='1' fill='%231baf7a'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <h1 data-i18n="brand"></h1>
+      <p class="subtitle" id="hero-title" data-i18n="heroTitle"></p>
+    </div>
+    <div class="header-right">
+      <nav class="lang-toggle" aria-label="Language / Langue">
+        <button class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+        <button class="lang-btn" data-lang="fr" aria-pressed="false">FR</button>
+      </nav>
+      <p class="updated" id="updated-at" aria-live="polite"></p>
+    </div>
+  </header>
+
+  <main>
+    <section class="card hero">
+      <p data-i18n-html="heroText"></p>
+    </section>
+
+    <nav class="filter-row" aria-label="Filters">
+      <span class="filter-label" data-i18n="period"></span>
+      <button class="range-btn" data-days="30" data-i18n="range30"></button>
+      <button class="range-btn" data-days="90" data-i18n="range90"></button>
+      <button class="range-btn" data-days="180" data-i18n="range180"></button>
+      <button class="range-btn" data-days="0" data-i18n="rangeAll"></button>
+    </nav>
+
+    <h2 class="section-title" data-i18n="marketTitle"></h2>
+    <section class="kpi-row" id="market-kpis"></section>
+
+    <h2 class="section-title" data-i18n="platformsTitle"></h2>
+    <section class="platform-cards" id="platform-cards"></section>
+
+    <section class="card">
+      <h2 data-i18n="shareTitle"></h2>
+      <p class="card-note" data-i18n="shareNote"></p>
+      <div class="chart-wrap"><svg id="share-chart" role="img"></svg></div>
+      <div class="legend" id="share-legend" role="list"></div>
+    </section>
+
+    <div class="two-col">
+      <section class="card">
+        <h2 data-i18n="compareNewTitle"></h2>
+        <div class="chart-wrap"><svg id="compare-new-chart" role="img"></svg></div>
+      </section>
+      <section class="card">
+        <h2 data-i18n="compareTargetTitle"></h2>
+        <div class="chart-wrap"><svg id="compare-target-chart" role="img"></svg></div>
+      </section>
+    </div>
+
+    <section class="card">
+      <h2 data-i18n="compareVolumeTitle"></h2>
+      <p class="card-note" id="compare-volume-note"></p>
+      <div class="legend" id="compare-volume-legend" role="list"></div>
+      <div class="chart-wrap"><svg id="compare-volume-chart" role="img"></svg></div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="compareTableTitle"></h2>
+      <p class="card-note" data-i18n="compareTableNote"></p>
+      <div class="table-wrap">
+        <table id="compare-table">
+          <thead>
+            <tr>
+              <th scope="col" data-i18n="thPlatformCol"></th>
+              <th scope="col" class="num" data-i18n="thNew"></th>
+              <th scope="col" class="num" data-i18n="thTargetSum"></th>
+              <th scope="col" class="num" data-i18n="thMaxSum"></th>
+              <th scope="col" class="num" data-i18n="thRaisedSum"></th>
+              <th scope="col" class="num" data-i18n="thCU"></th>
+              <th scope="col" class="num" data-i18n="thWithdrawn"></th>
+              <th scope="col" class="num" data-i18n="thFilings"></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <p class="error" id="load-error" hidden data-i18n="loadError"></p>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer"></p>
+  </footer>
+
+  <div class="tooltip" id="tooltip" role="status" hidden></div>
+  <script src="common.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>
