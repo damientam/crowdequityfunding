@@ -25,6 +25,11 @@ Source de vérité de l'**exécution**. Suivi de l'avancement des BI. Statuts : 
 | US-10 | Filtre plateforme + volume empilé par plateforme en vue « toutes » | `DONE ✅` |
 | US-11 | Interface bilingue EN/FR, anglais par défaut | `DONE ✅` |
 
+## R3.3 — Graphe temporel des levées déclarées  `DONE ✅`
+| BI | Description | Statut |
+|---|---|---|
+| US-16 | Courbes cumulées par plateforme (Lightweight Charts vendorée, escalier, zoom/pan) | `DONE ✅` |
+
 ## R3.2 — Comparatif des levées déclarées  `DONE ✅`
 | BI | Description | Statut |
 |---|---|---|

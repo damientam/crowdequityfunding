@@ -66,6 +66,13 @@
     </div>
 
     <section class="card">
+      <h2 data-i18n="raisedTimeTitle"></h2>
+      <p class="card-note" data-i18n="raisedTimeNote"></p>
+      <div class="legend" id="raised-time-legend" role="list"></div>
+      <div id="raised-time-chart"></div>
+    </section>
+
+    <section class="card">
       <h2 data-i18n="compareVolumeTitle"></h2>
       <p class="card-note" id="compare-volume-note"></p>
       <div class="legend" id="compare-volume-legend" role="list"></div>
@@ -102,6 +109,7 @@
   </footer>
 
   <div class="tooltip" id="tooltip" role="status" hidden></div>
+  <script src="vendor/lightweight-charts.standalone.production.js"></script>
   <script src="common.js"></script>
   <script src="home.js"></script>
 </body>
