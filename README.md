@@ -31,6 +31,7 @@ versionnable — de leur activité. Voir `spec.md` pour le détail (et les limit
 ├── data/
 │   ├── filings.json                ← registre cumulatif des dépôts (1 entrée / dépôt, champ platform)
 │   └── summary.json                ← agrégats quotidiens, globaux et par plateforme
+├── vendor/                         ← TradingView Lightweight Charts™ (Apache-2.0, vendorée)
 ├── collector/
 │   ├── collect.js                  ← collecteur EDGAR (Node ≥ 20, zéro dépendance)
 │   ├── update-daily.sh             ← collecte quotidienne locale (le workflow Actions fait pareil dans le cloud)

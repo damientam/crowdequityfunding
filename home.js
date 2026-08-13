@@ -4,6 +4,74 @@
 
 const pageUrl = (id, anchor) => `platform.html?p=${id}${anchor ? `#${anchor}` : ''}`;
 
+/* ---------- cumulative declared-raises time chart (Lightweight Charts) ---------- */
+
+let raisedTimeChart = null;
+
+// One cumulative step-series per platform: running total of C-U declared
+// amounts, day-aggregated, anchored at 0 on the first collected date.
+function raisedTimeSeries() {
+  const first = state.filings.reduce((a, f) => a < f.fileDate ? a : f.fileDate, '9999-12-31');
+  const today = new Date().toISOString().slice(0, 10);
+  return PLATFORMS.map(p => {
+    const perDay = new Map();
+    for (const f of state.filings) {
+      if (f.platform !== p.id || !f.form.startsWith('C-U') || !f.raisedAmount) continue;
+      perDay.set(f.fileDate, (perDay.get(f.fileDate) || 0) + f.raisedAmount);
+    }
+    let total = 0;
+    const data = [{ time: first, value: 0 }];
+    for (const day of [...perDay.keys()].sort()) {
+      total += perDay.get(day);
+      data.push({ time: day, value: total });
+    }
+    data.push({ time: today, value: total }); // extend the last step to today
+    return { platform: p, data };
+  });
+}
+
+function renderRaisedTimeChart() {
+  const host = $('#raised-time-chart');
+  if (raisedTimeChart) { raisedTimeChart.remove(); raisedTimeChart = null; }
+  host.textContent = '';
+  renderLegend($('#raised-time-legend'), PLATFORMS, { hrefOf: (s) => pageUrl(s.id, 'progress') });
+
+  const chart = LightweightCharts.createChart(host, {
+    autoSize: true,
+    layout: {
+      background: { color: 'transparent' },
+      textColor: cssColor('--text-muted'),
+      fontFamily: getComputedStyle(document.body).fontFamily,
+      attributionLogo: false,
+    },
+    grid: {
+      vertLines: { color: cssColor('--grid') },
+      horzLines: { color: cssColor('--grid') },
+    },
+    rightPriceScale: { borderColor: cssColor('--grid') },
+    timeScale: { borderColor: cssColor('--grid') },
+    localization: {
+      locale: t('locale'),
+      priceFormatter: (v) => usdCompact(v),
+    },
+    crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
+    handleScale: { axisPressedMouseMove: true },
+  });
+  for (const { platform, data } of raisedTimeSeries()) {
+    chart.addSeries(LightweightCharts.LineSeries, {
+      color: cssColor(platform.cssVar),
+      lineWidth: 2,
+      lineType: LightweightCharts.LineType.WithSteps,
+      title: platform.label,
+      priceLineVisible: false,
+      lastValueVisible: true,
+      crosshairMarkerVisible: true,
+    }).setData(data);
+  }
+  chart.timeScale().fitContent();
+  raisedTimeChart = chart;
+}
+
 function renderMarketKpis(from, to) {
   const s = platformStats(state.filings, from, to);
   const host = $('#market-kpis');
@@ -93,6 +161,7 @@ function renderAll() {
   renderHBarChart($('#compare-raised-chart'),
     rows.map(r => ({ ...r, value: r.stats.raisedAmountSum })).sort((a, b) => b.value - a.value),
     { valueFmt: usdCompact, hrefOf: (r) => pageUrl(r.id, 'progress') });
+  renderRaisedTimeChart();
 
   const { buckets, weekly } = buildBuckets(state.filings, from, to);
   $('#compare-volume-note').textContent =

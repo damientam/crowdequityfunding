@@ -259,6 +259,8 @@ h1 .platform-dot { width: 16px; height: 16px; margin-right: 10px; display: inlin
 }
 .platform-foot:hover { text-decoration: underline; }
 
+#raised-time-chart { height: 320px; }
+
 .compare-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

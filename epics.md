@@ -67,6 +67,10 @@ détail par acteur, et un drill-down de l'accueil vers les bons éléments de ch
 - **US-15** `DONE ✅` Graphe comparatif « Levées déclarées » sur la page d'accueil (barres horizontales par plateforme, montants C-U de la période, note de méthode, drill-down vers `#progress`).
   - *Tests* : rendu sans erreur console ; les montants concordent avec la colonne « Levées déclarées » du tableau ; le clic mène à la section progression de la bonne plateforme.
 
+### Release 3.3 — Graphe temporel des levées déclarées  `DONE ✅`
+- **US-16** `DONE ✅` Graphe temporel interactif (TradingView Lightweight Charts™, vendorée en `vendor/`, Apache-2.0) : cumul des montants réellement levés déclarés (C-U) depuis le début de la collecte, une courbe en escalier par plateforme (couleurs d'identité), historique complet indépendant du filtre de période, zoom/pan, axes localisés.
+  - *Tests* : rendu clair/sombre sans erreur console ; les dernières valeurs des courbes = colonne « Levées déclarées » du tableau en période « tout l'historique ».
+
 ---
 
 ## Delivery Plan (ordre des releases)
