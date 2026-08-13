@@ -63,6 +63,10 @@ détail par acteur, et un drill-down de l'accueil vers les bons éléments de ch
 - **US-14** `DONE ✅` Drill-down : chaque carte, mini-KPI, barre, entrée de légende et cellule du tableau comparatif mène à la page du bon acteur, sur la bonne section (`#volume`, `#amounts`, `#progress`, `#withdrawals`, `#projects`) ; fil d'Ariane retour à l'accueil ; KPI de la page acteur cliquables vers leurs sections.
   - *Tests* : les URL générées pointent vers `platform.html?p=<id>#<ancre>` ; chaque ancre existe dans la page acteur.
 
+### Release 3.2 — Comparatif des levées déclarées  `DONE ✅`
+- **US-15** `DONE ✅` Graphe comparatif « Levées déclarées » sur la page d'accueil (barres horizontales par plateforme, montants C-U de la période, note de méthode, drill-down vers `#progress`).
+  - *Tests* : rendu sans erreur console ; les montants concordent avec la colonne « Levées déclarées » du tableau ; le clic mène à la section progression de la bonne plateforme.
+
 ---
 
 ## Delivery Plan (ordre des releases)

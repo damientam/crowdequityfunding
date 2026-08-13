@@ -90,6 +90,9 @@ function renderAll() {
   renderHBarChart($('#compare-target-chart'),
     rows.map(r => ({ ...r, value: r.stats.targetAmountSum })).sort((a, b) => b.value - a.value),
     { valueFmt: usdCompact, hrefOf: (r) => pageUrl(r.id, 'amounts') });
+  renderHBarChart($('#compare-raised-chart'),
+    rows.map(r => ({ ...r, value: r.stats.raisedAmountSum })).sort((a, b) => b.value - a.value),
+    { valueFmt: usdCompact, hrefOf: (r) => pageUrl(r.id, 'progress') });
 
   const { buckets, weekly } = buildBuckets(state.filings, from, to);
   $('#compare-volume-note').textContent =
