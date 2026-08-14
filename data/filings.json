@@ -20167,5 +20167,32 @@
   "raisedAmount": null,
   "progressUpdate": null,
   "platform": "wefunder"
+ },
+ {
+  "adsh": "0001872856-26-000276",
+  "cik": "2123537",
+  "platform": "dealmaker",
+  "form": "C/A",
+  "fileDate": "2026-08-13",
+  "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2123537/000187285626000276/0001872856-26-000276-index.htm",
+  "submissionType": "C/A",
+  "issuerName": "Best Is Yet To Come Brewing, Inc.",
+  "issuerWebsite": "https://maga-beer.com/",
+  "issuerCity": "JOLIET",
+  "issuerState": "IL",
+  "jurisdiction": "DE",
+  "portalName": "DEALMAKER SECURITIES LLC",
+  "securityType": "Other",
+  "securityTypeOther": "Non-Voting Common Stock",
+  "price": 4.5,
+  "offeringAmount": 25001.19,
+  "maximumOfferingAmount": 4999996.98,
+  "deadlineDate": "2027-02-10",
+  "oversubscriptionAccepted": "Y",
+  "currentEmployees": 0,
+  "revenueMostRecent": 58604,
+  "netIncomeMostRecent": -1072345.61,
+  "raisedAmount": null,
+  "progressUpdate": null
  }
 ]
