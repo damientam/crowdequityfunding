@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-30T12:55:14.931Z",
+ "updatedAt": "2026-08-31T15:07:10.382Z",
  "platforms": {
   "all": {
    "days": [
@@ -2242,20 +2242,34 @@
      "targetAmountSum": 100000,
      "maxAmountSum": 5124000,
      "raisedAmountSum": 0
+    },
+    {
+     "date": "2026-08-31",
+     "filings": 4,
+     "newProjects": 3,
+     "amendments": 0,
+     "progressUpdates": 1,
+     "annualReports": 0,
+     "withdrawals": 0,
+     "terminations": 0,
+     "other": 0,
+     "targetAmountSum": 150000,
+     "maxAmountSum": 748000,
+     "raisedAmountSum": 156872
     }
    ],
    "totals": {
-    "filings": 789,
-    "newProjects": 255,
+    "filings": 793,
+    "newProjects": 258,
     "amendments": 302,
-    "progressUpdates": 130,
+    "progressUpdates": 131,
     "annualReports": 71,
     "withdrawals": 18,
     "terminations": 13,
     "other": 0,
-    "targetAmountSum": 13044931.820000002,
-    "maxAmountSum": 456834517.6500002,
-    "raisedAmountSum": 63358005.24
+    "targetAmountSum": 13194931.820000002,
+    "maxAmountSum": 457582517.6500002,
+    "raisedAmountSum": 63514877.24
    }
   },
   "wefunder": {
@@ -3981,20 +3995,34 @@
      "targetAmountSum": 100000,
      "maxAmountSum": 5124000,
      "raisedAmountSum": 0
+    },
+    {
+     "date": "2026-08-31",
+     "filings": 4,
+     "newProjects": 3,
+     "amendments": 0,
+     "progressUpdates": 1,
+     "annualReports": 0,
+     "withdrawals": 0,
+     "terminations": 0,
+     "other": 0,
+     "targetAmountSum": 150000,
+     "maxAmountSum": 748000,
+     "raisedAmountSum": 156872
     }
    ],
    "totals": {
-    "filings": 294,
-    "newProjects": 140,
+    "filings": 298,
+    "newProjects": 143,
     "amendments": 110,
-    "progressUpdates": 13,
+    "progressUpdates": 14,
     "annualReports": 25,
     "withdrawals": 2,
     "terminations": 4,
     "other": 0,
-    "targetAmountSum": 7770000,
-    "maxAmountSum": 154807904,
-    "raisedAmountSum": 10735080.6
+    "targetAmountSum": 7920000,
+    "maxAmountSum": 155555904,
+    "raisedAmountSum": 10891952.6
    }
   },
   "startengine": {
