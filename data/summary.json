@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-23T12:46:10.615Z",
+ "updatedAt": "2026-09-24T12:46:23.352Z",
  "platforms": {
   "all": {
    "days": [
@@ -2469,30 +2469,30 @@
     },
     {
      "date": "2026-09-23",
-     "filings": 3,
-     "newProjects": 2,
-     "amendments": 0,
+     "filings": 5,
+     "newProjects": 3,
+     "amendments": 1,
      "progressUpdates": 1,
      "annualReports": 0,
      "withdrawals": 0,
      "terminations": 0,
      "other": 0,
-     "targetAmountSum": 100002,
-     "maxAmountSum": 949804,
+     "targetAmountSum": 110004.33,
+     "maxAmountSum": 2949806.5,
      "raisedAmountSum": 323556
     }
    ],
    "totals": {
-    "filings": 860,
-    "newProjects": 281,
-    "amendments": 326,
+    "filings": 862,
+    "newProjects": 282,
+    "amendments": 327,
     "progressUpdates": 146,
     "annualReports": 73,
     "withdrawals": 21,
     "terminations": 13,
     "other": 0,
-    "targetAmountSum": 14575126.050000003,
-    "maxAmountSum": 497221592.2100003,
+    "targetAmountSum": 14585128.380000003,
+    "maxAmountSum": 499221594.7100003,
     "raisedAmountSum": 71878734.98
    }
   },
@@ -7711,19 +7711,33 @@
      "targetAmountSum": 0,
      "maxAmountSum": 0,
      "raisedAmountSum": 433143.48
+    },
+    {
+     "date": "2026-09-23",
+     "filings": 2,
+     "newProjects": 1,
+     "amendments": 1,
+     "progressUpdates": 0,
+     "annualReports": 0,
+     "withdrawals": 0,
+     "terminations": 0,
+     "other": 0,
+     "targetAmountSum": 10002.33,
+     "maxAmountSum": 2000002.5,
+     "raisedAmountSum": 0
     }
    ],
    "totals": {
-    "filings": 286,
-    "newProjects": 56,
-    "amendments": 117,
+    "filings": 288,
+    "newProjects": 57,
+    "amendments": 118,
     "progressUpdates": 80,
     "annualReports": 25,
     "withdrawals": 5,
     "terminations": 3,
     "other": 0,
-    "targetAmountSum": 1685193.9499999995,
-    "maxAmountSum": 184767602.83999997,
+    "targetAmountSum": 1695196.2799999996,
+    "maxAmountSum": 186767605.33999997,
     "raisedAmountSum": 31116502.6
    }
   },
