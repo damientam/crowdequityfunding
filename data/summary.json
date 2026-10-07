@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-06T14:13:02.405Z",
+ "updatedAt": "2026-10-07T14:32:15.962Z",
  "platforms": {
   "all": {
    "days": [
@@ -2595,11 +2595,11 @@
     },
     {
      "date": "2026-10-06",
-     "filings": 3,
+     "filings": 5,
      "newProjects": 2,
      "amendments": 0,
      "progressUpdates": 1,
-     "annualReports": 0,
+     "annualReports": 2,
      "withdrawals": 0,
      "terminations": 0,
      "other": 0,
@@ -2609,11 +2609,11 @@
     }
    ],
    "totals": {
-    "filings": 903,
+    "filings": 905,
     "newProjects": 300,
     "amendments": 341,
     "progressUpdates": 153,
-    "annualReports": 75,
+    "annualReports": 77,
     "withdrawals": 21,
     "terminations": 13,
     "other": 0,
@@ -4628,11 +4628,11 @@
     },
     {
      "date": "2026-10-06",
-     "filings": 2,
+     "filings": 4,
      "newProjects": 2,
      "amendments": 0,
      "progressUpdates": 0,
-     "annualReports": 0,
+     "annualReports": 2,
      "withdrawals": 0,
      "terminations": 0,
      "other": 0,
@@ -4642,11 +4642,11 @@
     }
    ],
    "totals": {
-    "filings": 338,
+    "filings": 340,
     "newProjects": 165,
     "amendments": 119,
     "progressUpdates": 20,
-    "annualReports": 28,
+    "annualReports": 30,
     "withdrawals": 2,
     "terminations": 4,
     "other": 0,
