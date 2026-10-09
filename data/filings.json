@@ -24541,5 +24541,32 @@
   "netIncomeMostRecent": -496465.24,
   "raisedAmount": null,
   "progressUpdate": null
+ },
+ {
+  "adsh": "0002155644-26-000002",
+  "cik": "2155644",
+  "platform": "wefunder",
+  "form": "C",
+  "fileDate": "2026-10-09",
+  "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2155644/000215564426000002/0002155644-26-000002-index.htm",
+  "submissionType": "C",
+  "issuerName": "Ronald Isley Liquid Gold LLC",
+  "issuerWebsite": "www.ronaldisleyliquidgold.com",
+  "issuerCity": "Chesterfield",
+  "issuerState": "MO",
+  "jurisdiction": "MO",
+  "portalName": "Wefunder Portal LLC",
+  "securityType": "Other",
+  "securityTypeOther": "Simple Agreement for Future Equity (SAFE)",
+  "price": 1,
+  "offeringAmount": 50000,
+  "maximumOfferingAmount": 1235000,
+  "deadlineDate": "2027-04-30",
+  "oversubscriptionAccepted": "Y",
+  "currentEmployees": 3,
+  "revenueMostRecent": 18446.92,
+  "netIncomeMostRecent": -189235.94,
+  "raisedAmount": null,
+  "progressUpdate": null
  }
 ]
