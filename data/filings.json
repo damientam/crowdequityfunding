@@ -24676,5 +24676,32 @@
   "netIncomeMostRecent": -225769,
   "raisedAmount": null,
   "progressUpdate": null
+ },
+ {
+  "adsh": "0002098004-26-000003",
+  "cik": "2098004",
+  "platform": "wefunder",
+  "form": "C",
+  "fileDate": "2026-10-13",
+  "edgarUrl": "https://www.sec.gov/Archives/edgar/data/2098004/000209800426000003/0002098004-26-000003-index.htm",
+  "submissionType": "C",
+  "issuerName": "Shieldwise, Inc.",
+  "issuerWebsite": "https://shieldwise.co",
+  "issuerCity": "Palatine",
+  "issuerState": "IL",
+  "jurisdiction": "IL",
+  "portalName": "Wefunder Portal LLC",
+  "securityType": "Other",
+  "securityTypeOther": "Simple Agreement for Future Equity (SAFE)",
+  "price": 1,
+  "offeringAmount": 50000,
+  "maximumOfferingAmount": 556850,
+  "deadlineDate": "2027-04-30",
+  "oversubscriptionAccepted": "Y",
+  "currentEmployees": 6,
+  "revenueMostRecent": 0,
+  "netIncomeMostRecent": -2600,
+  "raisedAmount": null,
+  "progressUpdate": null
  }
 ]
