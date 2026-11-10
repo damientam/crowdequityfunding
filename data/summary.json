@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T17:31:19.168Z",
+ "updatedAt": "2026-11-10T15:36:40.169Z",
  "platforms": {
   "all": {
    "days": [
@@ -2917,30 +2917,44 @@
     },
     {
      "date": "2026-11-09",
-     "filings": 2,
-     "newProjects": 1,
+     "filings": 4,
+     "newProjects": 2,
+     "amendments": 2,
+     "progressUpdates": 0,
+     "annualReports": 0,
+     "withdrawals": 0,
+     "terminations": 0,
+     "other": 0,
+     "targetAmountSum": 85000,
+     "maxAmountSum": 1124000,
+     "raisedAmountSum": 0
+    },
+    {
+     "date": "2026-11-10",
+     "filings": 1,
+     "newProjects": 0,
      "amendments": 1,
      "progressUpdates": 0,
      "annualReports": 0,
      "withdrawals": 0,
      "terminations": 0,
      "other": 0,
-     "targetAmountSum": 75000,
-     "maxAmountSum": 1000000,
+     "targetAmountSum": 0,
+     "maxAmountSum": 0,
      "raisedAmountSum": 0
     }
    ],
    "totals": {
-    "filings": 1005,
-    "newProjects": 335,
-    "amendments": 371,
+    "filings": 1008,
+    "newProjects": 336,
+    "amendments": 373,
     "progressUpdates": 171,
     "annualReports": 88,
     "withdrawals": 26,
     "terminations": 14,
     "other": 0,
-    "targetAmountSum": 17445111.78,
-    "maxAmountSum": 587716008.4100003,
+    "targetAmountSum": 17455111.78,
+    "maxAmountSum": 587840008.4100003,
     "raisedAmountSum": 85767338.62999998
    }
   },
@@ -5199,19 +5213,47 @@
      "targetAmountSum": 20000,
      "maxAmountSum": 248000,
      "raisedAmountSum": 0
+    },
+    {
+     "date": "2026-11-09",
+     "filings": 1,
+     "newProjects": 1,
+     "amendments": 0,
+     "progressUpdates": 0,
+     "annualReports": 0,
+     "withdrawals": 0,
+     "terminations": 0,
+     "other": 0,
+     "targetAmountSum": 10000,
+     "maxAmountSum": 124000,
+     "raisedAmountSum": 0
+    },
+    {
+     "date": "2026-11-10",
+     "filings": 1,
+     "newProjects": 0,
+     "amendments": 1,
+     "progressUpdates": 0,
+     "annualReports": 0,
+     "withdrawals": 0,
+     "terminations": 0,
+     "other": 0,
+     "targetAmountSum": 0,
+     "maxAmountSum": 0,
+     "raisedAmountSum": 0
     }
    ],
    "totals": {
-    "filings": 380,
-    "newProjects": 188,
-    "amendments": 124,
+    "filings": 382,
+    "newProjects": 189,
+    "amendments": 125,
     "progressUpdates": 23,
     "annualReports": 39,
     "withdrawals": 2,
     "terminations": 4,
     "other": 0,
-    "targetAmountSum": 10990002,
-    "maxAmountSum": 201042156,
+    "targetAmountSum": 11000002,
+    "maxAmountSum": 201166156,
     "raisedAmountSum": 13667259.6
    }
   },
@@ -9016,9 +9058,9 @@
     },
     {
      "date": "2026-11-09",
-     "filings": 1,
+     "filings": 2,
      "newProjects": 0,
-     "amendments": 1,
+     "amendments": 2,
      "progressUpdates": 0,
      "annualReports": 0,
      "withdrawals": 0,
@@ -9030,9 +9072,9 @@
     }
    ],
    "totals": {
-    "filings": 333,
+    "filings": 334,
     "newProjects": 61,
-    "amendments": 140,
+    "amendments": 141,
     "progressUpdates": 95,
     "annualReports": 26,
     "withdrawals": 7,
