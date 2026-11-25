@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T18:54:45.539Z",
+ "updatedAt": "2026-11-25T17:58:49.779Z",
  "platforms": {
   "all": {
    "days": [
@@ -3057,30 +3057,44 @@
     },
     {
      "date": "2026-11-24",
-     "filings": 4,
+     "filings": 6,
      "newProjects": 4,
-     "amendments": 0,
+     "amendments": 1,
      "progressUpdates": 0,
-     "annualReports": 0,
+     "annualReports": 1,
      "withdrawals": 0,
      "terminations": 0,
      "other": 0,
      "targetAmountSum": 200000,
      "maxAmountSum": 7824000,
      "raisedAmountSum": 0
+    },
+    {
+     "date": "2026-11-25",
+     "filings": 6,
+     "newProjects": 3,
+     "amendments": 3,
+     "progressUpdates": 0,
+     "annualReports": 0,
+     "withdrawals": 0,
+     "terminations": 0,
+     "other": 0,
+     "targetAmountSum": 120000,
+     "maxAmountSum": 844000,
+     "raisedAmountSum": 0
     }
    ],
    "totals": {
-    "filings": 1052,
-    "newProjects": 361,
-    "amendments": 381,
+    "filings": 1060,
+    "newProjects": 364,
+    "amendments": 385,
     "progressUpdates": 180,
-    "annualReports": 88,
+    "annualReports": 89,
     "withdrawals": 27,
     "terminations": 15,
     "other": 0,
-    "targetAmountSum": 18260105.43,
-    "maxAmountSum": 614741003.7600003,
+    "targetAmountSum": 18380105.43,
+    "maxAmountSum": 615585003.7600003,
     "raisedAmountSum": 99948148.05999999
    }
   },
@@ -5468,30 +5482,44 @@
     },
     {
      "date": "2026-11-24",
-     "filings": 2,
+     "filings": 3,
      "newProjects": 2,
      "amendments": 0,
      "progressUpdates": 0,
-     "annualReports": 0,
+     "annualReports": 1,
      "withdrawals": 0,
      "terminations": 0,
      "other": 0,
      "targetAmountSum": 75000,
      "maxAmountSum": 5124000,
      "raisedAmountSum": 0
+    },
+    {
+     "date": "2026-11-25",
+     "filings": 3,
+     "newProjects": 3,
+     "amendments": 0,
+     "progressUpdates": 0,
+     "annualReports": 0,
+     "withdrawals": 0,
+     "terminations": 0,
+     "other": 0,
+     "targetAmountSum": 120000,
+     "maxAmountSum": 844000,
+     "raisedAmountSum": 0
     }
    ],
    "totals": {
-    "filings": 408,
-    "newProjects": 209,
+    "filings": 412,
+    "newProjects": 212,
     "amendments": 130,
     "progressUpdates": 24,
-    "annualReports": 39,
+    "annualReports": 40,
     "withdrawals": 2,
     "terminations": 4,
     "other": 0,
-    "targetAmountSum": 11574999,
-    "maxAmountSum": 220002154,
+    "targetAmountSum": 11694999,
+    "maxAmountSum": 220846154,
     "raisedAmountSum": 13726820.6
    }
   },
@@ -7176,12 +7204,26 @@
      "targetAmountSum": 19996.65,
      "maxAmountSum": 4314997.35,
      "raisedAmountSum": 0
+    },
+    {
+     "date": "2026-11-25",
+     "filings": 2,
+     "newProjects": 0,
+     "amendments": 2,
+     "progressUpdates": 0,
+     "annualReports": 0,
+     "withdrawals": 0,
+     "terminations": 0,
+     "other": 0,
+     "targetAmountSum": 0,
+     "maxAmountSum": 0,
+     "raisedAmountSum": 0
     }
    ],
    "totals": {
-    "filings": 215,
+    "filings": 217,
     "newProjects": 53,
-    "amendments": 95,
+    "amendments": 97,
     "progressUpdates": 39,
     "annualReports": 13,
     "withdrawals": 10,
@@ -9419,12 +9461,40 @@
      "targetAmountSum": 0,
      "maxAmountSum": 0,
      "raisedAmountSum": 4491970.09
+    },
+    {
+     "date": "2026-11-24",
+     "filings": 1,
+     "newProjects": 0,
+     "amendments": 1,
+     "progressUpdates": 0,
+     "annualReports": 0,
+     "withdrawals": 0,
+     "terminations": 0,
+     "other": 0,
+     "targetAmountSum": 0,
+     "maxAmountSum": 0,
+     "raisedAmountSum": 0
+    },
+    {
+     "date": "2026-11-25",
+     "filings": 1,
+     "newProjects": 0,
+     "amendments": 1,
+     "progressUpdates": 0,
+     "annualReports": 0,
+     "withdrawals": 0,
+     "terminations": 0,
+     "other": 0,
+     "targetAmountSum": 0,
+     "maxAmountSum": 0,
+     "raisedAmountSum": 0
     }
    ],
    "totals": {
-    "filings": 339,
+    "filings": 341,
     "newProjects": 61,
-    "amendments": 143,
+    "amendments": 145,
     "progressUpdates": 98,
     "annualReports": 26,
     "withdrawals": 7,
